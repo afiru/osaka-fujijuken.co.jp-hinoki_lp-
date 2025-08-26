@@ -10,6 +10,10 @@ LAYOUT
     @include mi.marginPercent(1920, -104, auto, 0, auto);
     @include mi.paddingPercent(1920, 183, 0, 287, 0);
 
+    @include mi.mq(tab) {
+        margin-top: -8%;
+    }
+
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 0, auto, 0, auto);
         padding: 15% 0% 36.26% 0%;

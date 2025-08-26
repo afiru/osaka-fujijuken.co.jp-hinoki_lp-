@@ -1166,6 +1166,11 @@ LAYOUT
     padding: 9.53% 0% 14.94% 0%;
   }
 }
+@media screen and (max-width: 1199px) {
+  .hiyoriHouse {
+    margin-top: -8%;
+  }
+}
 @media screen and (max-width: 767px) {
   .hiyoriHouse {
     margin-top: 0px;
