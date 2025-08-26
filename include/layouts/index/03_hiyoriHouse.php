@@ -1,0 +1,67 @@
+<div class="hiyoriHouse bgHiyoriHouse">
+    <!--
+    Pc:../img/bgHiyoriHousePc.png
+    Sp:../img/bgHiyoriHouseSp.png
+    -->
+    <div class="wapper HiyoriHouseWap">
+        <section class="secHiyoriHouse">
+            <h3 class="t_center h3HiyoriHouse">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="img/h3HiyoriHousePc.svg">
+                    <!--PC画像-->
+                    <source media="(max-width: 767px)" srcset="img/h3HiyoriHouseSp.svg">
+                    <!--SP画像-->
+                    <img loading="lazy" src="img/h3HiyoriHousePc.svg" alt="紀州の風" width="1000" height="95">
+                </picture>
+            </h3>
+            <figure class="photsHiyoriHouse">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="img/photsHiyoriHousePc.png">
+                    <!--PC画像-->
+                    <source media="(max-width: 767px)" srcset="img/photsHiyoriHouseSp.png">
+                    <!--SP画像-->
+                    <img loading="lazy" src="img/photsHiyoriHousePc.png" alt="紀州の風のいえ風景" width="1200" height="505">
+                </picture>
+            </figure>
+
+            <section class="secCtnHiyoriHouse">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="img/secCtnHiyoriHousePc.svg">
+                    <!--PC画像-->
+                    <source media="(max-width: 767px)" srcset="img/secCtnHiyoriHouseSp.png">
+                    <!--SP画像-->
+                    <img loading="lazy" src="img/secCtnHiyoriHousePc.svg" alt="誇りと喜びを体感する住まい" width="869" height="255">
+                </picture>
+            </section>
+
+
+        </section>
+    </div>
+
+    <div class="sliderHiyoriBox bgSliderHiyoriBox">
+        <!--
+        Pc:../img/bgSliderHiyoriBoxPc.png
+        Sp:../img/bgSliderHiyoriBoxSp.png
+        -->
+        <div class="wapper sliderHiyoriBoxWap">
+            <figure class="cntSliderHiyoriBox">
+                <picture>
+                    <source media="(min-width: 768px)" srcset="img/cntSliderHiyoriBoxPc.svg">
+                    <!--PC画像-->
+                    <source media="(max-width: 767px)" srcset="img/cntSliderHiyoriBoxSp.svg">
+                    <!--SP画像-->
+                    <img loading="lazy" src="img/cntSliderHiyoriBoxPc.svg" alt="硬質な設備と生活必需品" width="521" height="96">
+                </picture>
+            </figure>
+        </div>
+
+        <div class="pc_only sliderHiyoriMainPc">
+            <img src="img/sliderHiyoriMainPc.png">
+            <img src="img/sliderHiyoriMainPc.png">
+        </div>
+        <div class="sp_only sliderHiyoriMainSp">
+            <img src="img/sliderHiyoriMainSp.png">
+            <img src="img/sliderHiyoriMainSp.png">
+        </div>
+    </div>
+</div>

@@ -1,0 +1,60 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.plan {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+    @include mi.paddingPercent(1920, 178, 0, 350, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 0, auto, 0, auto);
+        @include mi.paddingPercent(375, 90, 0, 105, 0);
+    }
+}
+
+.planWap {}
+
+.h2Plan {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+        margin: auto;
+    }
+}
+
+.ulPlan {
+    @include mi.marginPercent(1200, 38, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+        @include mi.marginPercent(375, 50, auto, 0, auto);
+    }
+}
+
+.liPlan {
+    @include mi.paddingPercent(1200, 58, 0, 58, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(335, 20, 0, 20, 0);
+    }
+
+    &:nth-child(n+2) {
+        @include mi.marginPercent(1200, 80, auto, 0, auto);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(335, 101, auto, 0, auto);
+        }
+    }
+}
+
+.picPlan {
+    @include mi.ontenerWidth(1200, 1000);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(335, 295);
+    }
+}

@@ -1,0 +1,92 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.footer {
+    @include mi.marginPercent(1920, 217, auto, 0, auto);
+    @include mi.paddingPercent(1920, 34, 0, 39, 0);
+
+    @include mi.mq(sp) {
+        margin-top: 21.03%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 2.7% 0% 4% 0%;
+    }
+}
+
+.copy {
+    @include mi.fontSizePc(15);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(120);
+    color: #fff;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(10);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(120);
+    }
+}
+
+.logoFooter {
+    @include mi.marginPercent(1200, 18, auto, 0, auto);
+    @include mi.ontenerWidth(1200, 190);
+
+    @include mi.mq(sp) {
+        margin-top: 2.73%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include mi.ontenerWidth(375, 100);
+    }
+}
+
+//
+.footerFixed {
+    @include mi.mq(sp) {
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        @include mi.paddingPercent(375, 9, 0, 10, 0);
+    }
+}
+
+.ulFooterFixed {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+        margin: auto;
+    }
+}
+
+.liFooterFixed {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(335, 156);
+    }
+}
+
+.fixtdToTop {
+    width: 50px;
+    bottom: 20px;
+    right: 20px;
+    position: fixed;
+
+    &:hover {
+        opacity: 0.75;
+    }
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 50);
+
+        bottom: 22.4vw;
+        right: 5.333333333333333vw;
+
+        &:hover {
+            opacity: 1;
+        }
+    }
+}

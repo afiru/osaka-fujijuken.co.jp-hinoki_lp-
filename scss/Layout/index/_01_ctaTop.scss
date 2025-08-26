@@ -1,0 +1,28 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.ctaTop {
+    @include mi.marginPercent(1920, 83, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        display: none;
+    }
+}
+
+.ctaTopWap {}
+
+.ulCtaTop {
+    @include mi.ontenerWidth(1200, 938);
+    margin: auto;
+}
+
+.liCtaTop {
+    @include mi.ontenerWidth(938, 449);
+}
+
+.btnLiCtaTop {}

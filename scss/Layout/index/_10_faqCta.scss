@@ -1,0 +1,37 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.ctaFaq {
+    @include mi.marginPercent(1920, 141, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 90, auto, 0, auto);
+    }
+}
+
+.h2CtaFaq {
+    @include mi.ontenerWidth(1200, 545);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 290);
+    }
+}
+
+.ulCtaFaqL {
+    @include mi.marginPercent(1200, 120, auto, 0, auto);
+}
+
+.ulCtaFaq {
+    @include mi.ontenerWidth(1200, 1000);
+    margin: auto;
+}
+
+.liCtaFaq {
+    @include mi.ontenerWidth(1000, 449);
+}

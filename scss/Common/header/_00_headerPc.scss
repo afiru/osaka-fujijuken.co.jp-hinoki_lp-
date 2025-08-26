@@ -1,15 +1,41 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../../Functions/mixin" as mi;
+@use "../../Functions/mixin"as mi;
 
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.test {
-    @include mi.letterSpacing(60);
-    @include mi.fontSizePc(12);
-    @include mi.mq(sp) {
-        @include mi.fontSizeSp(14);
-    }
+.wap {
+    overflow-x: clip;
 }
+
+.base_header {
+    position: sticky;
+    width: 100%;
+    top: 0;
+    z-index: 99;
+}
+
+.headerPc {
+    @include mi.paddingPercent(1920, 20, 0, 20, 0);
+}
+
+.headerPcWap {}
+
+.headerPcFx {
+    @include mi.ontenerWidth(1200, 1000);
+    margin: auto;
+}
+
+.logoHeaderPc {}
+
+.ulHeaderPc {
+    @include mi.ontenerWidth(1000, 223);
+}
+
+.liHeaderPc {
+    @include mi.ontenerWidth(223, 105);
+}
+
+.btnLiHeaderPc {}

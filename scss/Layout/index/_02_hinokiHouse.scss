@@ -1,0 +1,180 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.hinokiHouse {
+    @include mi.marginPercent(1920, 99, auto, 0, auto);
+    @include mi.paddingPercent(1920, 161, 0, 238, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 0, auto, 0, auto);
+        @include mi.paddingPercent(375, 38, 0, 88, 0);
+    }
+}
+
+.bghinokiHouse {
+    background: url(../img/bghinokiHousePc.png) no-repeat center top;
+    background-size: cover;
+
+    @include mi.mq(sp) {
+        background: url(../img/bghinokiHouseSp.png) no-repeat center top;
+        background-size: cover;
+    }
+}
+
+.hinokiHouseWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+    }
+}
+
+.secHinokiHouse {}
+
+.h2HinokiHouse {
+    @include mi.ontenerWidth(1200, 525);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(335, 170);
+    }
+}
+
+.h3HinokiHouse {
+    @include mi.marginPercent(1200, 130, auto, 0, auto);
+    @include mi.ontenerWidth(1200, 1000);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(335, 30, auto, 0, auto);
+        @include mi.ontenerWidth(335, 155);
+    }
+}
+
+.photsHinokiHouse {
+    @include mi.marginPercent(1200, 57, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(335, 30, auto, 0, auto);
+    }
+}
+
+.secCtnHinokiHouse {
+    @include mi.marginPercent(1200, 58, auto, 0, auto);
+    @include mi.ontenerWidth(1200, 869);
+
+    @include mi.mq(sp) {
+        margin-top: 8.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 100%;
+    }
+}
+
+.sliderHinokiBox {
+    @include mi.paddingPercent(1920, 35, 0, 57, 0);
+    @include mi.marginPercent(1920, 68, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        padding: 4.97% 0% 6.56% 0%;
+        margin-top: 17.1%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.bgSliderHinokiBox {
+    background: url(../img/bgSliderHinokiBoxPc.png) no-repeat center top;
+    background-size: auto 100%;
+
+    @include mi.mq(sp) {
+        background: url(../img/bgSliderHinokiBoxSp.png) no-repeat center top;
+        background-size: auto 100%;
+    }
+}
+
+.sliderHinokiBoxWap {}
+
+.cntSliderHinokiBox {
+    @include mi.ontenerWidth(1200, 912);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+    }
+}
+
+.sliderhinokiMainPc {
+    @include mi.marginPercent(1920, 35, auto, 0, auto);
+    width: 100vw;
+    height: 262px;
+    overflow: hidden;
+    display: flex;
+
+    @include mi.mq(sp) {
+        display: none;
+    }
+
+}
+
+.sliderhinokiMainPc img {
+    @include mi.marginPercent(1920, 0, 20, 0, 0);
+    width: auto;
+    height: 100%;
+    max-width: unset;
+    animation: loop 100s -50s linear infinite;
+
+    &:last-child {
+        animation: loop2 100s linear infinite;
+    }
+
+}
+
+.sliderhinokiMainSp {
+    @include mi.marginPercent(375, 20, auto, 0, auto);
+    width: 100vw;
+    height: 200px;
+    overflow: hidden;
+
+    @include mi.mq(sp) {
+        display: flex;
+    }
+}
+
+.sliderhinokiMainSp img {
+    @include mi.marginPercent(375, 0, 15, 0, 0);
+    width: auto;
+    height: 100%;
+    max-width: unset;
+    animation: loop 100s -50s linear infinite;
+
+    &:last-child {
+        animation: loop2 100s linear infinite;
+    }
+}
+
+@keyframes loop {
+    0% {
+        transform: translateX(100%);
+    }
+
+    100% {
+        transform: translateX(-100%);
+
+    }
+}
+
+@keyframes loop2 {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-200%);
+
+    }
+}

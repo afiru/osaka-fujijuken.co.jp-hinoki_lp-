@@ -1,0 +1,117 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+@include mi.mq(tab) {
+    img {
+        width: 100%;
+    }
+}
+
+.merit {
+    @include mi.marginPercent(1920, 85, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        margin-top: 5.33%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.titleMerit {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+        margin: auto;
+    }
+}
+
+.meritPoint {}
+
+.bgMeritPoint {
+    background: url(../img/bgMeritPointPc.png) no-repeat center top;
+    background-size: auto 100%;
+    @include mi.paddingPercent(1920, 147, 0, 0, 0);
+
+    @include mi.mq(sp) {
+        background: url(../img/bgMeritPointSp.png) no-repeat center top;
+        background-size: auto 100%;
+        @include mi.paddingPercent(375, 70, 0, 62, 0);
+    }
+}
+
+.meritPointWap {}
+
+.ulMeritPoint {
+    @include mi.ontenerWidth(1200, 1000);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+    }
+}
+
+.liMeritPoint {
+    @include mi.ontenerWidth(1000, 294);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(335, 335);
+
+        img {
+            width: 100%;
+        }
+    }
+
+    &:nth-child(n+4) {
+        @include mi.marginPercent(1000, 25, 0, 0, 0);
+
+        @include mi.mq(sp) {
+            margin: 12.94% 0% 0% 0%;
+        }
+    }
+
+    &:nth-child(1) {
+        @include mi.mq(sp) {
+            width: 87%;
+            margin: 0% auto 0% auto;
+        }
+    }
+
+    &:nth-child(2) {
+        @include mi.mq(sp) {
+            width: 87%;
+            margin: 12.94% auto 0% auto;
+        }
+    }
+
+    &:nth-child(3) {
+        @include mi.mq(sp) {
+            width: 88%;
+            margin: 11.94% auto 0% auto;
+        }
+    }
+
+    &:nth-child(4) {
+        @include mi.mq(sp) {
+            width: 88%;
+            margin: 11.94% auto 0% auto;
+        }
+    }
+
+    &:nth-child(5) {
+        @include mi.mq(sp) {
+            width: 87.5%;
+            margin: 11.94% auto 0% auto;
+        }
+    }
+
+    &:nth-child(6) {
+        @include mi.mq(sp) {
+            margin: 24.94% auto 0% auto;
+        }
+    }
+}

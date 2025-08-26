@@ -1,0 +1,146 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.hiyoriHouse {
+    @include mi.marginPercent(1920, -104, auto, 0, auto);
+    @include mi.paddingPercent(1920, 183, 0, 287, 0);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 0, auto, 0, auto);
+        padding: 15% 0% 36.26% 0%;
+    }
+}
+
+.bgHiyoriHouse {
+    background: url(../img/bgHiyoriHousePc.png) no-repeat center top;
+    background-size: auto 100%;
+
+    @include mi.mq(sp) {
+        background: url(../img/bgHiyoriHouseSp.png) no-repeat center top;
+        background-size: cover;
+    }
+}
+
+.HiyoriHouseWap {
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+    }
+}
+
+.secHiyoriHouse {}
+
+.h3HiyoriHouse {
+    @include mi.ontenerWidth(1200, 1000);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        width: 47.26%;
+    }
+}
+
+.photsHiyoriHouse {
+    @include mi.marginPercent(1200, 56, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        margin-top: 8.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.secCtnHiyoriHouse {
+    @include mi.marginPercent(1200, 60, auto, 0, auto);
+    @include mi.ontenerWidth(1200, 869);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(335, 30, auto, 0, auto);
+        @include mi.ontenerWidth(335, 335);
+    }
+}
+
+.sliderHiyoriBox {
+    @include mi.paddingPercent(1920, 35, 0, 57, 0);
+    @include mi.marginPercent(1920, 67, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        padding: 5.97% 0% 5.56% 0%;
+        margin-top: 10.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
+
+.bgSliderHiyoriBox {
+    background: url(../img/bgSliderHiyoriBoxPc.png) no-repeat center top;
+    background-size: auto 100%;
+
+    @include mi.mq(sp) {
+        background: url(../img/bgSliderHiyoriBoxSp.png) no-repeat center top;
+        background-size: cover;
+    }
+}
+
+.sliderHiyoriBoxWap {}
+
+.cntSliderHiyoriBox {
+    @include mi.ontenerWidth(1200, 521);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+    }
+}
+
+.sliderHiyoriMainPc {
+    @include mi.marginPercent(1920, 36, auto, 0, auto);
+    width: 100vw;
+    height: 262px;
+    overflow: hidden;
+    display: flex;
+
+    @include mi.mq(sp) {
+        display: none;
+    }
+}
+
+.sliderHiyoriMainPc img {
+    @include mi.marginPercent(1920, 0, 20, 0, 0);
+    width: auto;
+    height: 100%;
+    max-width: unset;
+    animation: loop 100s -50s linear infinite;
+
+    &:last-child {
+        animation: loop2 100s linear infinite;
+    }
+}
+
+.sliderHiyoriMainSp {
+    @include mi.marginPercent(375, 48, auto, 0, auto);
+    width: 100vw;
+    height: 200px;
+    overflow: hidden;
+
+    @include mi.mq(sp) {
+        display: flex;
+    }
+}
+
+.sliderHiyoriMainSp img {
+    @include mi.marginPercent(375, 0, 15, 0, 0);
+    width: auto;
+    height: 100%;
+    max-width: unset;
+    animation: loop 100s -50s linear infinite;
+
+    &:last-child {
+        animation: loop2 100s linear infinite;
+    }
+}

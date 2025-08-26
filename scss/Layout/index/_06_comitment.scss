@@ -1,0 +1,88 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.titleComitMent {
+    @include mi.marginPercent(1920, 140, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 96, auto, 0, auto);
+    }
+}
+
+.titleComitMentWap {}
+
+.titleComitMentPic {
+    @include mi.ontenerWidth(1200, 1200);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+        margin: auto;
+    }
+}
+
+//
+.bgMainComitment {
+    @include mi.paddingPercent(1920, 64, 0, 0, 0);
+    background: url(../img/bgMainComitmentPc.png) no-repeat top center;
+    background-size: auto 3523px;
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 0, 0, 0, 0);
+        background: none;
+    }
+}
+
+.mainComitmentWap {
+    background: url(../img/bgMainComitmentWapPc.png) no-repeat top center;
+    background-size: auto 100%;
+    @include mi.paddingPercent(1920, 40, 0, 90, 0);
+
+    @include mi.mq(sp) {
+        @include mi.paddingPercent(375, 40, 0, 70, 0);
+        background: #F7F4EB;
+    }
+}
+
+.ulMainComitment {
+    @include mi.ontenerWidth(1200, 1000);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 335);
+    }
+}
+
+.liMainComitment {
+    img {
+        width: 100%;
+    }
+
+    &:nth-child(n+2) {
+        @include mi.marginPercent(1000, 100, auto, 0, auto);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(335, 70, auto, 0, auto);
+        }
+    }
+}
+
+//
+.ctaCommit {
+    @include mi.marginPercent(1920, 100, auto, 0, auto);
+}
+
+.ctaCommitWap {}
+
+.ulCtaCommit {
+    @include mi.ontenerWidth(1200, 1000);
+    margin: auto;
+}
+
+.liCtaCommit {
+    @include mi.ontenerWidth(1000, 449);
+}

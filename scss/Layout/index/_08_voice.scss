@@ -1,0 +1,107 @@
+/* ==========================================================================
+use＆nameSpace
+========================================================================== */
+@use "../../Functions/mixin"as mi;
+
+/* ==========================================================================
+LAYOUT
+========================================================================== */
+.bgVoice {
+    background: url(../img/bgVoicePc.png) no-repeat top center;
+    background-size: auto 100%;
+    @include mi.marginPercent(1920, -175, auto, 0, auto);
+    @include mi.paddingPercent(1920, 253, 0, 626, 0);
+    position: relative;
+
+    @include mi.mq(sp) {
+        background: url(../img/bgVoiceSp.png) no-repeat top center;
+        background-size: auto 100%;
+        margin-top: -8.6%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        @include mi.paddingPercent(375, 100, 0, 305, 0);
+    }
+}
+
+//
+.h2Voice {
+    @include mi.ontenerWidth(1200, 179);
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(375, 117);
+    }
+}
+
+.brdTopVoice {
+    @include mi.marginPercent(1200, 40, auto, 0, auto);
+    height: 1px;
+    width: 100%;
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 20, auto, 0, auto);
+        @include mi.ontenerWidth(375, 335);
+        height: 2px;
+    }
+}
+
+//
+.ulVoiceCnt {
+    @include mi.ontenerWidth(1200, 1000);
+    @include mi.marginPercent(1200, 66, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(375, 40, auto, 0, auto);
+        @include mi.ontenerWidth(375, 335);
+    }
+}
+
+.cntVoiceFx {}
+
+.photoVoice {
+    @include mi.ontenerWidth(1000, 617);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(335, 335);
+    }
+}
+
+.ctnVoice {
+    @include mi.ontenerWidth(1000, 343);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(335, 30, auto, 0, auto);
+        @include mi.ontenerWidth(335, 335);
+    }
+}
+
+.ulPhotsVoice {
+    @include mi.marginPercent(1000, 46, auto, 0, auto);
+
+    @include mi.mq(sp) {
+        @include mi.marginPercent(335, 40, auto, 0, auto);
+    }
+}
+
+.liPhotsVoice {
+    @include mi.ontenerWidth(1000, 230);
+
+    @include mi.mq(sp) {
+        @include mi.ontenerWidth(335, 158);
+
+        &:nth-child(n+3) {
+            @include mi.marginPercent(335, 18, 0, 0, 0);
+        }
+    }
+}
+
+.liVoiceCnt {
+    &:nth-child(n+2) {
+        @include mi.marginPercent(1000, 90, auto, 0, auto);
+
+        @include mi.mq(sp) {
+            @include mi.marginPercent(335, 100, auto, 0, auto);
+        }
+    }
+}
