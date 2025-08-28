@@ -1061,7 +1061,7 @@ LAYOUT
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 20px;
+  margin-right: 0px;
   width: auto;
   height: 100%;
   max-width: unset;
@@ -1069,7 +1069,7 @@ LAYOUT
 }
 @media screen and (max-width: 1199px) {
   .sliderhinokiMainPc img {
-    margin: 0% 1.04% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 .sliderhinokiMainPc img:last-child {
@@ -1103,7 +1103,7 @@ LAYOUT
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 15px;
+  margin-right: 0px;
   width: auto;
   height: 100%;
   max-width: unset;
@@ -1111,7 +1111,7 @@ LAYOUT
 }
 @media screen and (max-width: 1199px) {
   .sliderhinokiMainSp img {
-    margin: 0% 4% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 .sliderhinokiMainSp img:last-child {
@@ -1384,7 +1384,7 @@ LAYOUT
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 20px;
+  margin-right: 0px;
   width: auto;
   height: 100%;
   max-width: unset;
@@ -1392,7 +1392,7 @@ LAYOUT
 }
 @media screen and (max-width: 1199px) {
   .sliderHiyoriMainPc img {
-    margin: 0% 1.04% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 .sliderHiyoriMainPc img:last-child {
@@ -1426,7 +1426,7 @@ LAYOUT
   margin-top: 0px;
   margin-bottom: 0px;
   margin-left: 0px;
-  margin-right: 15px;
+  margin-right: 0px;
   width: auto;
   height: 100%;
   max-width: unset;
@@ -1434,7 +1434,7 @@ LAYOUT
 }
 @media screen and (max-width: 1199px) {
   .sliderHiyoriMainSp img {
-    margin: 0% 4% 0% 0%;
+    margin: 0% 0% 0% 0%;
   }
 }
 .sliderHiyoriMainSp img:last-child {

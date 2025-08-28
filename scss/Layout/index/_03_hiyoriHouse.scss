@@ -115,7 +115,7 @@ LAYOUT
 }
 
 .sliderHiyoriMainPc img {
-    @include mi.marginPercent(1920, 0, 20, 0, 0);
+    @include mi.marginPercent(1920, 0, 0, 0, 0);
     width: auto;
     height: 100%;
     max-width: unset;
@@ -138,7 +138,7 @@ LAYOUT
 }
 
 .sliderHiyoriMainSp img {
-    @include mi.marginPercent(375, 0, 15, 0, 0);
+    @include mi.marginPercent(375, 0, 0, 0, 0);
     width: auto;
     height: 100%;
     max-width: unset;

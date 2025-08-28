@@ -1,7 +1,7 @@
 <footer class="bg_2F564A footer">
     <div class="wapper footerWap">
         <p class="t_center cl_fff fw_500 txtset copy">Copyright Fujijuken.Ltd All Rights Reserved.</p>
-        <a class="d_block logoFooter" href="https://www2.fujijuken.co.jp/">
+        <a class="d_block logoFooter" href="https://www2.fujijuken.co.jp/" target="_blank">
             <img loading="lazy" src="img/logoFooter.png" alt="株式会社富士住建" width="190" height="55">
         </a>
     </div>
