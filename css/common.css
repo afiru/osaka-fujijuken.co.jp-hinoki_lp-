@@ -1191,7 +1191,7 @@ LAYOUT
   left: 40%;
   margin: auto;
   width: max-content;
-  font-weight: bold;
+  font-weight: 700;
 }
 @media screen and (max-width: 1199px) {
   .txtH3HinokiHouse {
@@ -1223,7 +1223,7 @@ LAYOUT
   left: 5%;
   top: -2%;
   margin: auto;
-  font-weight: bold;
+  font-weight: 700;
   font-size: 30px;
   line-height: normal;
   letter-spacing: 0.15em;
@@ -1586,7 +1586,7 @@ LAYOUT
   left: 43.5%;
   margin: auto;
   width: max-content;
-  font-weight: bold;
+  font-weight: 700;
 }
 @media screen and (max-width: 1199px) {
   .txtH3HiyoriHouse {
@@ -1624,7 +1624,7 @@ LAYOUT
   font-size: 30px;
   line-height: normal;
   letter-spacing: 0.15em;
-  font-weight: bold;
+  font-weight: 700;
 }
 @media screen and (max-width: 1199px) {
   .txtCtnHiyoriHouse {

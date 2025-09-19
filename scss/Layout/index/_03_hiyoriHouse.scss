@@ -161,7 +161,7 @@ LAYOUT
     left: 43.5%;
     margin: auto;
     width: max-content;
-    font-weight: bold;
+    font-weight: 700;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);
@@ -186,7 +186,7 @@ LAYOUT
     @include mi.fontSizePc(30);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(150);
-    font-weight: bold;
+    font-weight: 700;
 
     @include mi.mq(sp) {
         padding: 8.5% 0 0 0;

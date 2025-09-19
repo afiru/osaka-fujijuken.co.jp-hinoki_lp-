@@ -202,7 +202,7 @@ LAYOUT
     left: 40%;
     margin: auto;
     width: max-content;
-    font-weight: bold;
+    font-weight: 700;
 
     @include mi.mq(sp) {
         @include mi.fontSizeSp(20);
@@ -221,7 +221,7 @@ LAYOUT
     left: 5%;
     top: -2%;
     margin: auto;
-    font-weight: bold;
+    font-weight: 700;
     @include mi.fontSizePc(30);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(150);
