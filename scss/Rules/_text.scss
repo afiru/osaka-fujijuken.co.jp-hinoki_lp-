@@ -1,7 +1,7 @@
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
-@use "../Functions/mixin" as mi;
+@use "../Functions/mixin"as mi;
 
 /* ==========================================================================
 Library
@@ -109,4 +109,16 @@ body {
     overflow: hidden;
     display: block;
     font-size: 0.1em;
+}
+
+.Libertinus {
+    font-family: "Libertinus Serif Display", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.margoshic {
+    font-family: "Zen Maru Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }

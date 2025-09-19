@@ -23,6 +23,7 @@
                     <source media="(max-width: 767px)" srcset="img/liMeritPoint01Sp.png">
                     <img loading="lazy" src="img/liMeritPoint01Pc.png" alt="半世紀を超える耐久性" width="294" height="404">
                 </picture>
+                <p class="poab cl_2F564A fw_700 margoshic txtMeritPoint txtMeritPoint01">半世紀を超える耐久性</p>
             </li>
 
             <li class="liMeritPoint">
@@ -31,6 +32,7 @@
                     <source media="(max-width: 767px)" srcset="img/liMeritPoint02Sp.png">
                     <img loading="lazy" src="img/liMeritPoint02Pc.png" alt="高級感のある木目" width="294" height="404">
                 </picture>
+                <p class="poab cl_2F564A fw_700 margoshic txtMeritPoint txtMeritPoint02">高級感のある木目</p>
             </li>
 
             <li class="liMeritPoint">
@@ -39,6 +41,7 @@
                     <source media="(max-width: 767px)" srcset="img/liMeritPoint03Sp.png">
                     <img loading="lazy" src="img/liMeritPoint03Pc.png" alt="香りが良くリラックス効果がある" width="294" height="437">
                 </picture>
+                <p class="poab cl_2F564A fw_700 margoshic txtMeritPoint txtMeritPoint03">香りが良く<br>リラックス効果がある</p>
             </li>
 
             <li class="liMeritPoint">
@@ -47,6 +50,7 @@
                     <source media="(max-width: 767px)" srcset="img/liMeritPoint04Sp.png">
                     <img loading="lazy" src="img/liMeritPoint04Pc.png" alt="シロアリダニに強い" width="294" height="470">
                 </picture>
+                <p class="poab cl_2F564A fw_700 margoshic txtMeritPoint txtMeritPoint04">シロアリ・ダニに強い</p>
             </li>
 
             <li class="liMeritPoint">
@@ -55,6 +59,7 @@
                     <source media="(max-width: 767px)" srcset="img/liMeritPoint05Sp.png">
                     <img loading="lazy" src="img/liMeritPoint05Pc.png" alt="夏涼しく冬あたたかい" width="294" height="442">
                 </picture>
+                <p class="poab cl_2F564A fw_700 margoshic txtMeritPoint txtMeritPoint05">夏涼しく冬暖かい<br>調湿性能</p>
             </li>
             <li class="poab liMeritPoint">
                 <picture>

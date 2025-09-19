@@ -57,6 +57,7 @@ LAYOUT
 
 .liMeritPoint {
     @include mi.ontenerWidth(1000, 294);
+    position: relative;
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(335, 335);
@@ -113,5 +114,90 @@ LAYOUT
         @include mi.mq(sp) {
             margin: 24.94% auto 0% auto;
         }
+    }
+}
+
+.txtMeritPoint {
+    @include mi.fontSizePc(18);
+    @include mi.lineheight(18, 21);
+    @include mi.letterSpacing(150);
+    font-weight: 700;
+    position: absolute;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(18);
+        @include mi.lineheight(18, 21);
+        @include mi.letterSpacing(150);
+    }
+}
+
+.txtMeritPoint01 {
+    top: 60.1%;
+    left: 8.25%;
+    width: 87%;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        top: 65%;
+        left: 12%;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+.txtMeritPoint02 {
+    top: 59.4%;
+    left: 1%;
+    width: 100%;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        top: 61%;
+        left: 11%;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+.txtMeritPoint03 {
+    top: 58.8%;
+    left: 5.9%;
+    width: 90%;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        top: 58.8%;
+        left: 9.9%;
+        width: 80%;
+        text-align: center;
+    }
+}
+
+.txtMeritPoint04 {
+    top: 39.5%;
+    left: 5.1%;
+    width: 90%;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        top: 55%;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        text-align: center;
+    }
+}
+
+.txtMeritPoint05 {
+    top: 37.5%;
+    left: 4.2%;
+    width: 90%;
+    text-align: center;
+
+    @include mi.mq(sp) {
+        top: 55.5%;
+        left: 5.5%;
+        width: 89%;
+        text-align: center;
     }
 }

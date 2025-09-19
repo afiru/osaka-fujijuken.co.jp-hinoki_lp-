@@ -12,7 +12,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 0, auto, 0, auto);
-        @include mi.paddingPercent(375, 38, 0, 88, 0);
+        padding: 15.8% 0% 23.46% 0%;
     }
 }
 
@@ -35,21 +35,30 @@ LAYOUT
 .secHinokiHouse {}
 
 .h2HinokiHouse {
-    @include mi.ontenerWidth(1200, 525);
-    margin: auto;
+    @include mi.fontSizePc(43);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(100);
+    font-weight: bold;
 
     @include mi.mq(sp) {
-        @include mi.ontenerWidth(335, 170);
+
+        @include mi.fontSizeSp(27);
+        @include mi.lineheight(27, 40);
+        @include mi.letterSpacing(100);
     }
 }
 
 .h3HinokiHouse {
-    @include mi.marginPercent(1200, 130, auto, 0, auto);
-    @include mi.ontenerWidth(1200, 1000);
+    @include mi.marginPercent(1200, 119, auto, 0, auto);
+    @include mi.ontenerWidth(1200, 1038);
+    position: relative;
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(335, 30, auto, 0, auto);
-        @include mi.ontenerWidth(335, 155);
+        margin-top: 8.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 46%;
     }
 }
 
@@ -57,16 +66,20 @@ LAYOUT
     @include mi.marginPercent(1200, 57, auto, 0, auto);
 
     @include mi.mq(sp) {
-        @include mi.marginPercent(335, 30, auto, 0, auto);
+        margin-top: 7.5%;
+        margin-bottom: 0%;
+        margin-left: auto;
+        margin-right: auto;
     }
 }
 
 .secCtnHinokiHouse {
     @include mi.marginPercent(1200, 58, auto, 0, auto);
     @include mi.ontenerWidth(1200, 869);
+    position: relative;
 
     @include mi.mq(sp) {
-        margin-top: 8.5%;
+        margin-top: 10.2%;
         margin-bottom: 0%;
         margin-left: auto;
         margin-right: auto;
@@ -176,5 +189,47 @@ LAYOUT
     100% {
         transform: translateX(-200%);
 
+    }
+}
+
+
+.txtH3HinokiHouse {
+    @include mi.fontSizePc(37);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(200);
+    position: absolute;
+    top: 14%;
+    left: 40%;
+    margin: auto;
+    width: max-content;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(200);
+        top: unset;
+        left: 20%;
+        bottom: 15%;
+    }
+}
+
+.txtCtnHinokiHouse {
+    @include mi.paddingPercent(869, 40, 0, 0, 0);
+    width: fit-content;
+    position: absolute;
+    left: 5%;
+    top: -2%;
+    margin: auto;
+    font-weight: bold;
+    @include mi.fontSizePc(30);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(150);
+
+    @include mi.mq(sp) {
+        padding: 8.5% 0 0 0;
+        @include mi.fontSizeSp(21);
+        @include mi.lineheight(21, 33);
+        @include mi.letterSpacing(150);
+        left: 4.5%;
     }
 }

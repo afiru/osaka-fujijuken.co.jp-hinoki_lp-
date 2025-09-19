@@ -605,6 +605,18 @@ body p {
   font-size: 0.1em;
 }
 
+.Libertinus {
+  font-family: "Libertinus Serif Display", system-ui;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.margoshic {
+  font-family: "Zen Maru Gothic", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* ==========================================================================
 Common
 ========================================================================== */
@@ -717,6 +729,50 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
+.fv {
+  position: relative;
+}
+
+.h1Fv {
+  font-size: 7.96875vw;
+  line-height: normal;
+  letter-spacing: 0em;
+  color: #2F564A;
+  position: absolute;
+  bottom: 2.1vw;
+  left: 14.5vw;
+  right: 0;
+}
+@media screen and (max-width: 767px) {
+  .h1Fv {
+    line-height: 0.8909090909;
+    letter-spacing: 0em;
+    bottom: 24vw;
+    left: 5vw;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .h1Fv {
+    font-size: 14.6666666667vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .h1Fv::before {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: calc((1 - 0.8909090909) * 0.5em);
+    content: "";
+  }
+  .h1Fv::after {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-bottom: calc((1 - 0.8909090909) * 0.5em);
+    content: "";
+  }
+}
+
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
@@ -803,10 +859,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding-top: 38px;
-    padding-bottom: 88px;
-    padding-left: 0px;
-    padding-right: 0px;
+    padding: 15.8% 0% 23.46% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1199px) {
@@ -815,11 +868,6 @@ LAYOUT
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1199px) {
-  .hinokiHouse {
-    padding: 10.13% 0% 23.46% 0%;
   }
 }
 
@@ -846,35 +894,55 @@ LAYOUT
 }
 
 .h2HinokiHouse {
-  width: 525px;
-  margin: auto;
+  font-size: 43px;
+  line-height: normal;
+  letter-spacing: 0.1em;
+  font-weight: bold;
 }
 @media screen and (max-width: 1199px) {
   .h2HinokiHouse {
-    width: 43.75%;
+    font-size: 3.5863219349vw;
   }
 }
 @media screen and (max-width: 767px) {
   .h2HinokiHouse {
-    width: 170px;
+    line-height: 1.4814814815;
+    letter-spacing: 0.1em;
   }
 }
-@media screen and (max-width: 767px) and (max-width: 1199px) {
+@media screen and (max-width: 767px) and (max-width: 767px) {
   .h2HinokiHouse {
-    width: 50.74%;
+    font-size: 7.2vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .h2HinokiHouse::before {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: calc((1 - 1.4814814815) * 0.5em);
+    content: "";
+  }
+  .h2HinokiHouse::after {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-bottom: calc((1 - 1.4814814815) * 0.5em);
+    content: "";
   }
 }
 
 .h3HinokiHouse {
-  margin-top: 130px;
+  margin-top: 119px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
-  width: 1000px;
+  width: 1038px;
+  position: relative;
 }
 @media screen and (max-width: 1199px) {
   .h3HinokiHouse {
-    margin-top: 10.83%;
+    margin-top: 9.91%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -882,29 +950,16 @@ LAYOUT
 }
 @media screen and (max-width: 1199px) {
   .h3HinokiHouse {
-    width: 83.33%;
+    width: 86.5%;
   }
 }
 @media screen and (max-width: 767px) {
   .h3HinokiHouse {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-    width: 155px;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1199px) {
-  .h3HinokiHouse {
-    margin-top: 8.95%;
+    margin-top: 8.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1199px) {
-  .h3HinokiHouse {
-    width: 46.26%;
+    width: 46%;
   }
 }
 
@@ -924,15 +979,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .photsHinokiHouse {
-    margin-top: 30px;
-    margin-bottom: 0px;
-    margin-left: auto;
-    margin-right: auto;
-  }
-}
-@media screen and (max-width: 767px) and (max-width: 1199px) {
-  .photsHinokiHouse {
-    margin-top: 8.95%;
+    margin-top: 7.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -945,6 +992,7 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
   width: 869px;
+  position: relative;
 }
 @media screen and (max-width: 1199px) {
   .secCtnHinokiHouse {
@@ -961,7 +1009,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .secCtnHinokiHouse {
-    margin-top: 8.5%;
+    margin-top: 10.2%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -1134,6 +1182,91 @@ LAYOUT
     transform: translateX(-200%);
   }
 }
+.txtH3HinokiHouse {
+  font-size: 37px;
+  line-height: normal;
+  letter-spacing: 0.2em;
+  position: absolute;
+  top: 14%;
+  left: 40%;
+  margin: auto;
+  width: max-content;
+}
+@media screen and (max-width: 1199px) {
+  .txtH3HinokiHouse {
+    font-size: 3.0859049208vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtH3HinokiHouse {
+    line-height: normal;
+    letter-spacing: 0.2em;
+    top: unset;
+    left: 20%;
+    bottom: 15%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtH3HinokiHouse {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.txtCtnHinokiHouse {
+  padding-top: 40px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: fit-content;
+  position: absolute;
+  left: 5%;
+  top: -2%;
+  margin: auto;
+  font-weight: bold;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: 0.15em;
+}
+@media screen and (max-width: 1199px) {
+  .txtCtnHinokiHouse {
+    padding: 4.6% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .txtCtnHinokiHouse {
+    font-size: 2.5020850709vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtCtnHinokiHouse {
+    padding: 8.5% 0 0 0;
+    line-height: 1.5714285714;
+    letter-spacing: 0.15em;
+    left: 4.5%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtCtnHinokiHouse {
+    font-size: 5.6vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtCtnHinokiHouse::before {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: calc((1 - 1.5714285714) * 0.5em);
+    content: "";
+  }
+  .txtCtnHinokiHouse::after {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-bottom: calc((1 - 1.5714285714) * 0.5em);
+    content: "";
+  }
+}
+
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
@@ -1144,7 +1277,7 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .hiyoriHouse {
-  margin-top: -104px;
+  margin-top: -107px;
   margin-bottom: 0px;
   margin-left: auto;
   margin-right: auto;
@@ -1155,7 +1288,7 @@ LAYOUT
 }
 @media screen and (max-width: 1199px) {
   .hiyoriHouse {
-    margin-top: -5.42%;
+    margin-top: -5.58%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -1177,7 +1310,7 @@ LAYOUT
     margin-bottom: 0px;
     margin-left: auto;
     margin-right: auto;
-    padding: 15% 0% 36.26% 0%;
+    padding: 11% 0% 36.26% 0%;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 1199px) {
@@ -1214,6 +1347,7 @@ LAYOUT
 .h3HiyoriHouse {
   width: 1000px;
   margin: auto;
+  position: relative;
 }
 @media screen and (max-width: 1199px) {
   .h3HiyoriHouse {
@@ -1222,7 +1356,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .h3HiyoriHouse {
-    width: 47.26%;
+    width: 47%;
   }
 }
 
@@ -1242,7 +1376,7 @@ LAYOUT
 }
 @media screen and (max-width: 767px) {
   .photsHiyoriHouse {
-    margin-top: 8.5%;
+    margin-top: 7.5%;
     margin-bottom: 0%;
     margin-left: auto;
     margin-right: auto;
@@ -1255,6 +1389,7 @@ LAYOUT
   margin-left: auto;
   margin-right: auto;
   width: 869px;
+  position: relative;
 }
 @media screen and (max-width: 1199px) {
   .secCtnHiyoriHouse {
@@ -1441,6 +1576,92 @@ LAYOUT
   animation: loop2 100s linear infinite;
 }
 
+.txtH3HiyoriHouse {
+  font-size: 37px;
+  line-height: normal;
+  letter-spacing: 0.2em;
+  position: relative;
+  top: 12%;
+  left: 43.8%;
+  margin: auto;
+}
+@media screen and (max-width: 1199px) {
+  .txtH3HiyoriHouse {
+    font-size: 3.0859049208vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtH3HiyoriHouse {
+    line-height: normal;
+    letter-spacing: 0.2em;
+    top: unset;
+    left: 0;
+    right: 0;
+    bottom: 13%;
+    margin: auto;
+    position: absolute;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtH3HiyoriHouse {
+    font-size: 5.3333333333vw;
+  }
+}
+
+.txtCtnHiyoriHouse {
+  padding-top: 37px;
+  padding-bottom: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  width: fit-content;
+  position: absolute;
+  left: 5.5%;
+  top: -2%;
+  margin: auto;
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: 0.15em;
+}
+@media screen and (max-width: 1199px) {
+  .txtCtnHiyoriHouse {
+    padding: 4.25% 0% 0% 0%;
+  }
+}
+@media screen and (max-width: 1199px) {
+  .txtCtnHiyoriHouse {
+    font-size: 2.5020850709vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtCtnHiyoriHouse {
+    padding: 8.5% 0 0 0;
+    line-height: 1.5714285714;
+    letter-spacing: 0.15em;
+    left: 4.5%;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtCtnHiyoriHouse {
+    font-size: 5.6vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtCtnHiyoriHouse::before {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: calc((1 - 1.5714285714) * 0.5em);
+    content: "";
+  }
+  .txtCtnHiyoriHouse::after {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-bottom: calc((1 - 1.5714285714) * 0.5em);
+    content: "";
+  }
+}
+
 /* ==========================================================================
 use＆nameSpace
 ========================================================================== */
@@ -1541,6 +1762,7 @@ LAYOUT
 
 .liMeritPoint {
   width: 294px;
+  position: relative;
 }
 @media screen and (max-width: 1199px) {
   .liMeritPoint {
@@ -1611,6 +1833,136 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .liMeritPoint:nth-child(6) {
     margin: 24.94% auto 0% auto;
+  }
+}
+
+.txtMeritPoint {
+  font-size: 18px;
+  line-height: 1.1666666667;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  position: absolute;
+}
+@media screen and (max-width: 1199px) {
+  .txtMeritPoint {
+    font-size: 1.5012510425vw;
+  }
+}
+.txtMeritPoint::before {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-top: calc((1 - 1.1666666667) * 0.5em);
+  content: "";
+}
+.txtMeritPoint::after {
+  display: block;
+  width: 0;
+  height: 0;
+  margin-bottom: calc((1 - 1.1666666667) * 0.5em);
+  content: "";
+}
+@media screen and (max-width: 767px) {
+  .txtMeritPoint {
+    line-height: 1.1666666667;
+    letter-spacing: 0.15em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtMeritPoint {
+    font-size: 4.8vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtMeritPoint::before {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: calc((1 - 1.1666666667) * 0.5em);
+    content: "";
+  }
+  .txtMeritPoint::after {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-bottom: calc((1 - 1.1666666667) * 0.5em);
+    content: "";
+  }
+}
+
+.txtMeritPoint01 {
+  top: 60.1%;
+  left: 8.25%;
+  width: 87%;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .txtMeritPoint01 {
+    top: 65%;
+    left: 12%;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+.txtMeritPoint02 {
+  top: 59.4%;
+  left: 1%;
+  width: 100%;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .txtMeritPoint02 {
+    top: 61%;
+    left: 11%;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+.txtMeritPoint03 {
+  top: 58.8%;
+  left: 5.9%;
+  width: 90%;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .txtMeritPoint03 {
+    top: 58.8%;
+    left: 9.9%;
+    width: 80%;
+    text-align: center;
+  }
+}
+
+.txtMeritPoint04 {
+  top: 39.5%;
+  left: 5.1%;
+  width: 90%;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .txtMeritPoint04 {
+    top: 55%;
+    left: 0;
+    width: 100%;
+    text-align: center;
+    text-align: center;
+  }
+}
+
+.txtMeritPoint05 {
+  top: 37.5%;
+  left: 4.2%;
+  width: 90%;
+  text-align: center;
+}
+@media screen and (max-width: 767px) {
+  .txtMeritPoint05 {
+    top: 55.5%;
+    left: 5.5%;
+    width: 89%;
+    text-align: center;
   }
 }
 
@@ -1793,6 +2145,9 @@ LAYOUT
   }
 }
 
+.liMainComitment {
+  position: relative;
+}
 .liMainComitment img {
   width: 100%;
 }
@@ -1858,6 +2213,108 @@ LAYOUT
 @media screen and (max-width: 1199px) {
   .liCtaCommit {
     width: 44.9%;
+  }
+}
+
+.txtLiMainComitment {
+  font-size: 30px;
+  line-height: normal;
+  letter-spacing: 0.15em;
+  font-weight: 700;
+  position: absolute;
+}
+@media screen and (max-width: 1199px) {
+  .txtLiMainComitment {
+    font-size: 2.5020850709vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtLiMainComitment {
+    line-height: 1.3636363636;
+    letter-spacing: 0.15em;
+  }
+}
+@media screen and (max-width: 767px) and (max-width: 767px) {
+  .txtLiMainComitment {
+    font-size: 5.8666666667vw;
+  }
+}
+@media screen and (max-width: 767px) {
+  .txtLiMainComitment::before {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-top: calc((1 - 1.3636363636) * 0.5em);
+    content: "";
+  }
+  .txtLiMainComitment::after {
+    display: block;
+    width: 0;
+    height: 0;
+    margin-bottom: calc((1 - 1.3636363636) * 0.5em);
+    content: "";
+  }
+}
+
+.txtLiMainComitment01 {
+  top: 2%;
+  left: 25%;
+}
+@media screen and (max-width: 767px) {
+  .txtLiMainComitment01 {
+    top: 6.5%;
+    left: 20%;
+    width: 65%;
+  }
+}
+
+.txtLiMainComitment02 {
+  top: 4.5%;
+  left: 26.5%;
+}
+@media screen and (max-width: 767px) {
+  .txtLiMainComitment02 {
+    top: 12%;
+    left: 20%;
+    text-align: center;
+    width: 61%;
+  }
+}
+
+.txtLiMainComitment03 {
+  top: 2.3%;
+  left: 26.8%;
+}
+@media screen and (max-width: 767px) {
+  .txtLiMainComitment03 {
+    top: 2.05%;
+    left: 15%;
+    text-align: center;
+    width: 71%;
+  }
+}
+
+.txtLiMainComitment04 {
+  top: 6.5%;
+  left: 41.4%;
+}
+@media screen and (max-width: 767px) {
+  .txtLiMainComitment04 {
+    top: 12%;
+    left: 21%;
+    text-align: center;
+    width: 60%;
+  }
+}
+
+.txtLiMainComitment05 {
+  top: 0%;
+  left: 0%;
+}
+@media screen and (max-width: 767px) {
+  .txtLiMainComitment05 {
+    top: 0%;
+    left: 0%;
   }
 }
 
@@ -2688,6 +3145,14 @@ and open the template in the editor.
 */
 .bg_fff {
   background: #FFF;
+}
+
+.cl_fff {
+  color: #fff;
+}
+
+.cl_2F564A {
+  color: #2F564A;
 }
 
 .bg_2F564A {

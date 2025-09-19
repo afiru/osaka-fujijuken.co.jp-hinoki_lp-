@@ -5,7 +5,7 @@
     -->
     <div class="wapper HiyoriHouseWap">
         <section class="secHiyoriHouse">
-            <h3 class="t_center h3HiyoriHouse">
+            <h3 class="t_center pore h3HiyoriHouse">
                 <picture>
                     <source media="(min-width: 768px)" srcset="img/h3HiyoriHousePc.svg">
                     <!--PC画像-->
@@ -13,6 +13,7 @@
                     <!--SP画像-->
                     <img loading="lazy" src="img/h3HiyoriHousePc.svg" alt="紀州の風" width="1000" height="95">
                 </picture>
+                <p class="poab fw_700 txtset margoshic cl_fff txtH3HiyoriHouse">檜日和</p>
             </h3>
             <figure class="photsHiyoriHouse">
                 <picture>
@@ -24,7 +25,7 @@
                 </picture>
             </figure>
 
-            <section class="secCtnHiyoriHouse">
+            <section class="pore secCtnHiyoriHouse">
                 <picture>
                     <source media="(min-width: 768px)" srcset="img/secCtnHiyoriHousePc.svg">
                     <!--PC画像-->
@@ -32,6 +33,9 @@
                     <!--SP画像-->
                     <img loading="lazy" src="img/secCtnHiyoriHousePc.svg" alt="誇りと喜びを体感する住まい" width="869" height="255">
                 </picture>
+                <p class="cl_fff fw_700 txtset margoshic txtCtnHiyoriHouse">
+                    誇りと喜びを体感する住まい<br>紀州ひのきを贅沢に使った<br class="sp_only">純和風のひのきの家
+                </p>
             </section>
 
 

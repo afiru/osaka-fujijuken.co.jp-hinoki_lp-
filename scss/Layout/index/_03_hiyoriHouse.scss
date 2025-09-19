@@ -7,7 +7,7 @@ use＆nameSpace
 LAYOUT
 ========================================================================== */
 .hiyoriHouse {
-    @include mi.marginPercent(1920, -104, auto, 0, auto);
+    @include mi.marginPercent(1920, -107, auto, 0, auto);
     @include mi.paddingPercent(1920, 183, 0, 287, 0);
 
     @include mi.mq(tab) {
@@ -16,7 +16,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         @include mi.marginPercent(375, 0, auto, 0, auto);
-        padding: 15% 0% 36.26% 0%;
+        padding: 11% 0% 36.26% 0%;
     }
 }
 
@@ -41,9 +41,10 @@ LAYOUT
 .h3HiyoriHouse {
     @include mi.ontenerWidth(1200, 1000);
     margin: auto;
+    position: relative;
 
     @include mi.mq(sp) {
-        width: 47.26%;
+        width: 47%;
     }
 }
 
@@ -51,7 +52,7 @@ LAYOUT
     @include mi.marginPercent(1200, 56, auto, 0, auto);
 
     @include mi.mq(sp) {
-        margin-top: 8.5%;
+        margin-top: 7.5%;
         margin-bottom: 0%;
         margin-left: auto;
         margin-right: auto;
@@ -61,6 +62,7 @@ LAYOUT
 .secCtnHiyoriHouse {
     @include mi.marginPercent(1200, 60, auto, 0, auto);
     @include mi.ontenerWidth(1200, 869);
+    position: relative;
 
     @include mi.mq(sp) {
         @include mi.marginPercent(335, 30, auto, 0, auto);
@@ -146,5 +148,49 @@ LAYOUT
 
     &:last-child {
         animation: loop2 100s linear infinite;
+    }
+}
+
+
+.txtH3HiyoriHouse {
+    @include mi.fontSizePc(37);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(200);
+    position: relative;
+    top: 12%;
+    left: 43.8%;
+    margin: auto;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(20);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(200);
+        top: unset;
+        left: 0;
+        right: 0;
+        bottom: 13%;
+        margin: auto;
+        position: absolute;
+    }
+}
+
+.txtCtnHiyoriHouse {
+    @include mi.paddingPercent(869, 37, 0, 0, 0);
+    width: fit-content;
+    position: absolute;
+    left: 5.5%;
+    top: -2%;
+    margin: auto;
+    @include mi.fontSizePc(30);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(150);
+
+    @include mi.mq(sp) {
+        padding: 8.5% 0 0 0;
+        @include mi.fontSizeSp(21);
+        @include mi.lineheight(21, 33);
+        @include mi.letterSpacing(150);
+        left: 4.5%;
+
     }
 }

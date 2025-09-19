@@ -53,7 +53,7 @@
     <script src="//unpkg.com/lenis@1.2.3/dist/lenis.min.js"></script>
     <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css">
     <script src="//cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
-    <link href="//fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
+    <link href="//fonts.googleapis.com/css2?family=Libertinus+Serif+Display&family=Zen+Maru+Gothic&family=Noto+Sans+JP:wght@100..900&display=swap" rel="stylesheet">
     <link rel='stylesheet' id='theme_base_css' href='<?php echo $homeUrl; ?>css/common.css?ver=<?php echo date('Y-m-d-H-i-s'); ?>' media='all' />
     <script type='text/javascript' src="<?php echo $homeUrl; ?>js/config.js?ver=<?php echo date('Y-m-d-H-i-s'); ?>"></script>
     <script type='text/javascript' src="<?php echo $homeUrl; ?>js/bxsliderSetting.js?ver=<?php echo date('Y-m-d-H-i-s'); ?>"></script>

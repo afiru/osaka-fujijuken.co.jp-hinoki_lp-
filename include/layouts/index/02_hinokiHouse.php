@@ -5,16 +5,10 @@
     -->
     <div class="wapper hinokiHouseWap">
         <section class="secHinokiHouse">
-            <h2 class="t_center h2HinokiHouse">
-                <picture>
-                    <source media="(min-width: 768px)" srcset="img/h2HinokiHousePc.svg">
-                    <!--PC画像-->
-                    <source media="(max-width: 767px)" srcset="img/h2HinokiHouseSp.svg">
-                    <!--SP画像-->
-                    <img loading="lazy" src="img/h2HinokiHousePc.svg" alt="富士住建の「檜の家」" width="525" height="41">
-                </picture>
+            <h2 class="t_center margoshic cl_fff fw_700 h2HinokiHouse">
+                富士住建の<br class="sp_only">『ひのきの家』
             </h2>
-            <h3 class="t_center h3HinokiHouse">
+            <h3 class="t_center pore h3HinokiHouse">
                 <picture>
                     <source media="(min-width: 768px)" srcset="img/h3HinokiHousePc.svg">
                     <!--PC画像-->
@@ -22,6 +16,7 @@
                     <!--SP画像-->
                     <img loading="lazy" src="img/h3HinokiHousePc.svg" alt="紀州の風" width="1000" height="95">
                 </picture>
+                <p class="poab fw_700 txtset margoshic cl_fff txtH3HinokiHouse">紀州の風</p>
             </h3>
             <figure class="photsHinokiHouse">
                 <picture>
@@ -33,7 +28,7 @@
                 </picture>
             </figure>
 
-            <section class="secCtnHinokiHouse">
+            <section class=" pore secCtnHinokiHouse">
                 <picture>
                     <source media="(min-width: 768px)" srcset="img/secCtnHinokiHousePc.svg">
                     <!--PC画像-->
@@ -41,6 +36,9 @@
                     <!--SP画像-->
                     <img loading="lazy" src="img/secCtnHinokiHousePc.svg" alt="誇りと喜びを体感する住まい" width="869" height="255">
                 </picture>
+                <p class="cl_fff fw_700 txtset margoshic txtCtnHinokiHouse">
+                    誇りと喜びを体感する住まい<br>檜躯体を活かした<br class="sp_only">モダンスタイルなひのきの家
+                </p>
             </section>
 
 

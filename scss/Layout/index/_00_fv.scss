@@ -6,4 +6,25 @@ use＆nameSpace
 /* ==========================================================================
 LAYOUT
 ========================================================================== */
-.fv {}
+.fv {
+    position: relative;
+}
+
+.h1Fv {
+    @include mi.fontVw(1920, 153);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(0);
+    color: #2F564A;
+    position: absolute;
+    bottom: 2.1vw;
+    left: 14.5vw;
+    right: 0;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(55);
+        @include mi.lineheight(55, 49);
+        @include mi.letterSpacing(0);
+        bottom: 24vw;
+        left: 5vw;
+    }
+}

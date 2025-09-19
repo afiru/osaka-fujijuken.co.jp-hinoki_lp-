@@ -6,4 +6,5 @@
         <!--SP画像-->
         <img loading="lazy" src="img/fvPc.png" alt="" width="1920" height="1068">
     </picture>
+    <h1 class="Libertinus fw_400 txtset h1Fv">KISHU <br class="sp_only">HINOKI</h1>
 </figure>

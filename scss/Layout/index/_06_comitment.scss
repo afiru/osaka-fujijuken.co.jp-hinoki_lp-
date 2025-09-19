@@ -58,6 +58,8 @@ LAYOUT
 }
 
 .liMainComitment {
+    position: relative;
+
     img {
         width: 100%;
     }
@@ -85,4 +87,76 @@ LAYOUT
 
 .liCtaCommit {
     @include mi.ontenerWidth(1000, 449);
+}
+
+.txtLiMainComitment {
+    @include mi.fontSizePc(30);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(150);
+    font-weight: 700;
+    position: absolute;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(22);
+        @include mi.lineheight(22, 30);
+        @include mi.letterSpacing(150);
+    }
+}
+
+.txtLiMainComitment01 {
+    top: 2%;
+    left: 25%;
+
+    @include mi.mq(sp) {
+        top: 6.5%;
+        left: 20%;
+        width: 65%;
+    }
+}
+
+.txtLiMainComitment02 {
+    top: 4.5%;
+    left: 26.5%;
+
+    @include mi.mq(sp) {
+        top: 12%;
+        left: 20%;
+        text-align: center;
+        width: 61%;
+
+    }
+}
+
+.txtLiMainComitment03 {
+    top: 2.3%;
+    left: 26.8%;
+
+    @include mi.mq(sp) {
+        top: 2.05%;
+        left: 15%;
+        text-align: center;
+        width: 71%;
+    }
+}
+
+.txtLiMainComitment04 {
+    top: 6.5%;
+    left: 41.4%;
+
+    @include mi.mq(sp) {
+        top: 12.0%;
+        left: 21%;
+        text-align: center;
+        width: 60%;
+    }
+}
+
+.txtLiMainComitment05 {
+    top: 0%;
+    left: 0%;
+
+    @include mi.mq(sp) {
+        top: 0%;
+        left: 0%;
+    }
 }
