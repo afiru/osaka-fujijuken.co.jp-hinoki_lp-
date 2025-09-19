@@ -1581,10 +1581,11 @@ LAYOUT
   font-size: 37px;
   line-height: normal;
   letter-spacing: 0.2em;
-  position: relative;
-  top: 12%;
-  left: 43.8%;
+  position: absolute;
+  top: 14%;
+  left: 40%;
   margin: auto;
+  width: max-content;
   font-weight: bold;
 }
 @media screen and (max-width: 1199px) {

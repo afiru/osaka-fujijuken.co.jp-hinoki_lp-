@@ -156,10 +156,11 @@ LAYOUT
     @include mi.fontSizePc(37);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(200);
-    position: relative;
-    top: 12%;
-    left: 43.8%;
+    position: absolute;
+    top: 14%;
+    left: 40%;
     margin: auto;
+    width: max-content;
     font-weight: bold;
 
     @include mi.mq(sp) {
