@@ -37,7 +37,7 @@
                     <source media="(max-width: 767px)" srcset="img/liMainComitment02Sp.png">
                     <img loading="lazy" src="img/liMainComitment02Pc.png" alt="樹齢60年以上のひのきだけを使用" width="1000" height="520">
                 </picture>
-                <p class="poab txtLiMainComitment margoshic cl_2F564A fw_700 txtLiMainComitment02">樹齢60年以上のひのきだけを使用</p>
+                <p class="poab txtLiMainComitment margoshic cl_2F564A fw_700 txtLiMainComitment02">樹齢60年以上の<br class="sp_only">ひのきだけを使用</p>
             </li>
 
             <li class="liMainComitment">
