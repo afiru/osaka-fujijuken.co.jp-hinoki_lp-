@@ -1191,6 +1191,7 @@ LAYOUT
   left: 40%;
   margin: auto;
   width: max-content;
+  font-weight: bold;
 }
 @media screen and (max-width: 1199px) {
   .txtH3HinokiHouse {
@@ -1584,6 +1585,7 @@ LAYOUT
   top: 12%;
   left: 43.8%;
   margin: auto;
+  font-weight: bold;
 }
 @media screen and (max-width: 1199px) {
   .txtH3HiyoriHouse {
@@ -1621,6 +1623,7 @@ LAYOUT
   font-size: 30px;
   line-height: normal;
   letter-spacing: 0.15em;
+  font-weight: bold;
 }
 @media screen and (max-width: 1199px) {
   .txtCtnHiyoriHouse {
