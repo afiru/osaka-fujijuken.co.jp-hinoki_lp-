@@ -106,7 +106,7 @@ LAYOUT
 
     @include mi.mq(sp) {
         background: url(../img/bgSliderHinokiBoxSp.png) no-repeat center top;
-        background-size: auto 100%;
+        background-size:cover;
     }
 }
 
@@ -225,6 +225,7 @@ LAYOUT
     @include mi.fontSizePc(30);
     @include mi.lineheight(auto, auto);
     @include mi.letterSpacing(150);
+    white-space: nowrap;
 
     @include mi.mq(sp) {
         padding: 8.5% 0 0 0;

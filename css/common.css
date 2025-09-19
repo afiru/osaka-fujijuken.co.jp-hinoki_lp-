@@ -1057,7 +1057,7 @@ LAYOUT
 @media screen and (max-width: 767px) {
   .bgSliderHinokiBox {
     background: url(../img/bgSliderHinokiBoxSp.png) no-repeat center top;
-    background-size: auto 100%;
+    background-size: cover;
   }
 }
 
@@ -1227,6 +1227,7 @@ LAYOUT
   font-size: 30px;
   line-height: normal;
   letter-spacing: 0.15em;
+  white-space: nowrap;
 }
 @media screen and (max-width: 1199px) {
   .txtCtnHinokiHouse {
@@ -1642,6 +1643,7 @@ LAYOUT
     line-height: 1.5714285714;
     letter-spacing: 0.15em;
     left: 4.5%;
+    white-space: nowrap;
   }
 }
 @media screen and (max-width: 767px) and (max-width: 767px) {
@@ -2281,7 +2283,8 @@ LAYOUT
     top: 12%;
     left: 20%;
     text-align: center;
-    width: 61%;
+    width: 62%;
+    white-space: nowrap;
   }
 }
 
