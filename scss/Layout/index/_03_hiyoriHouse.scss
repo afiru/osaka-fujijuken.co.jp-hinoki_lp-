@@ -98,9 +98,31 @@ LAYOUT
 .cntSliderHiyoriBox {
     @include mi.ontenerWidth(1200, 521);
     margin: auto;
+    position: relative;
 
     @include mi.mq(sp) {
         @include mi.ontenerWidth(375, 335);
+    }
+}
+
+.h2SliderHiyoriBox {
+    position: absolute;
+    @include mi.fontSizePc(27);
+    @include mi.lineheight(auto, auto);
+    @include mi.letterSpacing(150);
+    width: 90%;
+    top: -9%;
+    left: 4.5%;
+    font-weight: 600;
+    color: #74564A;
+
+    @include mi.mq(sp) {
+        @include mi.fontSizeSp(21);
+        @include mi.lineheight(auto, auto);
+        @include mi.letterSpacing(150);
+        width: 92%;
+        top: -4%;
+        bottom: 0%;
     }
 }
 
@@ -194,6 +216,6 @@ LAYOUT
         @include mi.lineheight(21, 33);
         @include mi.letterSpacing(150);
         left: 4.5%;
-white-space: nowrap;
+        white-space: nowrap;
     }
 }

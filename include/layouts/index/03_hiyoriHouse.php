@@ -48,7 +48,7 @@
         Sp:../img/bgSliderHiyoriBoxSp.png
         -->
         <div class="wapper sliderHiyoriBoxWap">
-            <figure class="cntSliderHiyoriBox">
+            <div class="pore cntSliderHiyoriBox">
                 <picture>
                     <source media="(min-width: 768px)" srcset="img/cntSliderHiyoriBoxPc.svg">
                     <!--PC画像-->
@@ -56,7 +56,11 @@
                     <!--SP画像-->
                     <img loading="lazy" src="img/cntSliderHiyoriBoxPc.svg" alt="硬質な設備と生活必需品" width="521" height="96">
                 </picture>
-            </figure>
+
+                <h2 class=" margoshic fw_500 txtset t_center poab h2SliderHiyoriBox">
+                    純和風の設備が<br class="sp_only">標準装備
+                </h2>
+            </div>
         </div>
 
         <div class="pc_only sliderHiyoriMainPc">

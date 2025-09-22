@@ -51,15 +51,20 @@
         Sp:../img/bgSliderHinokiBoxSp.png
         -->
         <div class="wapper sliderHinokiBoxWap">
-            <figure class="cntSliderHinokiBox">
-                <picture>
-                    <source media="(min-width: 768px)" srcset="img/cntSliderHinokiBoxPc.svg">
-                    <!--PC画像-->
-                    <source media="(max-width: 767px)" srcset="img/cntSliderHinokiBoxSp.svg">
-                    <!--SP画像-->
-                    <img loading="lazy" src="img/cntSliderHinokiBoxPc.svg" alt="硬質な設備と生活必需品" width="912" height="98">
-                </picture>
-            </figure>
+            <div class="pore cntSliderHinokiBox">
+                <figure>
+                    <picture>
+                        <source media="(min-width: 768px)" srcset="img/cntSliderHinokiBoxPc.svg">
+                        <!--PC画像-->
+                        <source media="(max-width: 767px)" srcset="img/cntSliderHinokiBoxSp.svg">
+                        <!--SP画像-->
+                        <img loading="lazy" src="img/cntSliderHinokiBoxPc.svg" alt="硬質な設備と生活必需品" width="912" height="98">
+                    </picture>
+                </figure>
+                <h2 class=" margoshic fw_500 txtset t_center poab h2SliderHinokiBox">
+                    高品質な設備と<br class="sp_only">生活必需品が標準装備
+                </h2>
+            </div>
         </div>
 
         <div class="pc_only sliderhinokiMainPc">
